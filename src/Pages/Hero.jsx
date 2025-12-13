@@ -109,7 +109,7 @@ export default function Hero() {
           <div className="relative" data-aos="zoom-in">
             <div className="aspect-square rounded-2xl overflow-hidden bg-secondary/50 border border-border shadow-xl">
               <img
-                src="/my.jpg"
+                src="/balo.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover scale-105 hover:scale-110 transition-all duration-700"
               />
