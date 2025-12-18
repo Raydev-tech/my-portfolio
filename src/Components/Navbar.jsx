@@ -94,15 +94,6 @@ export default function Navbar() {
               </a>
             ))}
 
-            {/* Dark / Light Toggle */}
-            <button
-              aria-label="Toggle dark mode"
-              onClick={() => setDarkMode(!darkMode)}
-              className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition cursor-pointer"
-            >
-              {darkMode ? <Sun size={20} /> : <Moon size={20} />}
-            </button>
-
             {/* WhatsApp Button */}
             <a
               href="https://wa.me/2349159329752?text=Hello%20RayDev%2C%20I%20would%20like%20to%20book%20a%20call."
@@ -145,15 +136,6 @@ export default function Navbar() {
                 {link === "contact" ? "Contact Us" : link}
               </a>
             ))}
-
-            {/* Mobile Dark Mode Toggle */}
-            <button
-              aria-label="Toggle dark mode"
-              onClick={() => setDarkMode(!darkMode)}
-              className="w-full bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-6 py-2 rounded-full font-medium"
-            >
-              {darkMode ? "Light Mode" : "Dark Mode"}
-            </button>
 
             {/* Mobile WhatsApp Button */}
             <a

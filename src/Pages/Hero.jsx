@@ -45,7 +45,7 @@ export default function Hero() {
             </h2>
 
             <h1 className="text-5xl md:text-6xl font-bold text-foreground leading-tight">
-              I'm <span className="text-accent">Balogun AbdulRahmon Ishola</span>
+              I'm <span className="text-accent">Balogun Abdulrahmon Ishola</span>
             </h1>
 
             <h3 className="text-2xl font-semibold text-muted-foreground flex items-center gap-2">
