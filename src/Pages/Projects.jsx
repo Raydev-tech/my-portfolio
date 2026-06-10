@@ -50,15 +50,22 @@ const projects = [
     code: "https://github.com/hee-sholar/PolyPulse"
   },
   {
-    title: "MiboxAI – Smart Email Dashboard",
-    category: "AI + SaaS Platform",
-    image: "/miboxai.png",
-    description: "An intelligent Gmail-integrated dashboard that classifies emails by roles, detects scams using AI, and provides keyword-based tagging with reminders.",
-    stack: ["React", "Node.js", "Express", "MongoDB", "Clerk Auth", "OpenAI API"],
-    demo: "https://miboxai.vercel.app/",
-    code: "https://github.com/hee-sholar/MiboxAI",
-     comingSoon: true,
-  }
+  title: "Boty Skincare – Natural Beauty Store",
+  category: "Beauty & Skincare E-Commerce",
+  image: "/poty.png",
+  description:
+    "A modern skincare and beauty website designed to showcase natural skincare products with an immersive video hero section, elegant UI, responsive design, and seamless shopping experience.",
+  stack: [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Framer Motion",
+    "Vercel"
+  ],
+  demo: "https://v0-boty-ecommerce-template-7n1c.vercel.app/",
+  code: "https://github.com/yourusername/boty-skincare"
+}
 ];
 
 
